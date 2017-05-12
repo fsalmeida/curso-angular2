@@ -13,6 +13,8 @@ valorAtual: string = '';
 valorSalvo: string = '';
 isMouseOver: boolean = false;
 
+nomeDoCurso: string = `Angular`;
+
   constructor() { }
 
   ngOnInit() {
