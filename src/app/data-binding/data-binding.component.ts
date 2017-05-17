@@ -20,6 +20,9 @@ nomeDoCurso: string = `Angular`;
   ngOnInit() {
   }
 
+valorAlterado($event){
+  console.log($event.novoValor);
+}
 
 botaoClicado(){
   alert('Botao clicado');
