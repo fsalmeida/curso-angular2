@@ -11,7 +11,8 @@ import {CursosModule} from './cursos/cursos.module';
 import { DataBindingComponent } from './data-binding/data-binding.component';
 import { InputPropertyComponent } from './input-property/input-property.component';
 import { OutputPropertyComponent } from './output-property/output-property.component';
-import { CicloComponent } from './ciclo/ciclo.component'
+import { CicloComponent } from './ciclo/ciclo.component';
+import { TesteComponent } from './teste/teste.component'
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { CicloComponent } from './ciclo/ciclo.component'
     DataBindingComponent,
     InputPropertyComponent,
     OutputPropertyComponent,
-    CicloComponent
+    CicloComponent,
+    TesteComponent
   ],
   imports: [
     BrowserModule,
